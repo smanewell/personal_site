@@ -7,9 +7,10 @@ body {
 
 nav {
     margin: 0;
+    padding: 0 5vw 0;
     height: 15vh;
     display: grid;
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: 3fr 5fr;
 
     background-image: url('images/nav_flair_triangle.png');
     background-repeat: no-repeat;
@@ -23,17 +24,80 @@ nav {
 
 h1 {
     color: white;
-    vertical-align: middle;
-    font-size: 2em;
+    font-size: 3em;
+
+    align-self: center;
+    margin: 0;
 }
 
 #navButtons {
-    vertical-align: bottom;
+    justify-content: flex-end;
+    align-items: flex-end;
     display: flex;
+    height: 15vh;
 }
 
 .navButton {
-    background-color: rgba(127, 118, 177, 0.30)
+    color: white;
+    font-family: Verdana;
+    font-size: 0.7em;
+
+    background-color: rgba(127, 118, 177, 0.3);
+    border: none;
+    margin: 0 0.5vw;
+
+    height: 8vh;
+    min-width: 12vw;
 }
 
+.navButton:hover {
+    animation-name: enlarge;
+    animation-duration: 0.3s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: both;
+}
 
+@keyframes enlarge {
+    from {
+        width: 12vw;
+        height: 8vh;
+    }
+    to {
+        width: 13vw;
+        height: 9vh;
+    }
+}
+
+main {
+    margin: 0px 10vw 0px;
+}
+
+h2 {
+    color: rgba(35, 31, 64, 1);
+    font-size: 4em;
+    margin: 0;
+    padding-top: 10vh;
+}
+
+h3 {
+    color: rgba(35, 31, 64, 1);
+    font-size: 2em;
+}
+
+@media (max-width: 600px) {
+    h1{
+        font-size: 1.5em;
+    }
+
+    h2 {
+        font-size: 2em;
+    }
+    
+    h3 {
+        font-size: 1em;
+    }
+}
+
+.centered {
+    text-align: center;
+}

@@ -3,6 +3,7 @@ body {
     background-image: linear-gradient(to bottom, white, white, rgba(127, 118, 177, 0.75));
     background-size: 100vw 100vh;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 nav {
@@ -51,13 +52,13 @@ h1 {
 }
 
 .navButton:hover {
-    animation-name: enlarge;
+    animation-name: enlargeButton;
     animation-duration: 0.3s;
     animation-timing-function: ease-out;
     animation-fill-mode: both;
 }
 
-@keyframes enlarge {
+@keyframes enlargeButton {
     from {
         width: 12vw;
         height: 8vh;
@@ -90,12 +91,13 @@ h3 {
 }
 
 .largeGraphic {
-    width: 18vw;
-    height: 18vw;
+    width: 19vw;
+    height: 19vw;
+    padding: 0.5vw;
 
     border-style: solid;
     border-width: 1vw;
-    border-radius: 10vw;
+    border-radius: 11vw;
     border-color:  rgba(127, 118, 177, 1.0);
 }
 

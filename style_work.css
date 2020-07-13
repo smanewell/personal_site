@@ -1,0 +1,64 @@
+.workBlock {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.workText {
+    margin: 2vw;
+}
+
+.workLogo {
+    margin: 2vw;
+    align-self: center;
+}
+
+.workHeader {
+    display: flex;
+    flex-direction: column;
+}
+
+li {
+    font-family: Verdana;
+    margin: 10px 0px;
+}
+
+h3 {
+    font-family: Verdana;
+    font-weight: normal;
+    background-color: rgba(35, 31, 64, 1);
+    color: white;
+
+    margin: 0;
+    border-top-left-radius: 2vw;
+    border-bottom-right-radius: 2vw;
+    padding: 10px;
+}
+
+h4 {
+    font-family: Verdana;
+    font-size: 0.8em;
+}
+
+.workSubHeader {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 600px) {
+    .workBlock {
+        flex-direction: column;
+    }
+
+    .workLogo {
+        align-self: center;
+    }
+
+    .workSubHeader {
+        flex-direction: column;
+        justify-content: left;
+    }
+    
+    main {
+        margin: 0px 5vw 0px;
+    }
+}

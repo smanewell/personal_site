@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-image: linear-gradient(to bottom, white, white, rgba(127, 118, 177, 0.75));
+    background-image: linear-gradient(to bottom, white, white, rgba(127, 118, 177, 0.5));
     background-size: 100vw 100vh;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -126,7 +126,7 @@ h3 {
         height: 14vh;
 
         border-width: 1vh;
-        border-radius: 8vh;
+        border-radius: 9vh;
 
         margin: 2vh;
     }

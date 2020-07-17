@@ -1,7 +1,6 @@
 const express = require("express");
 const server = express();
 
-
 server.use(express.static("public"));
 server.use(express.json());
 server.set("view engine", "ejs");

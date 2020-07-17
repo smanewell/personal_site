@@ -1,0 +1,26 @@
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.galleryBtn {
+    width: 16vw;
+    height: 16vw;
+
+    margin: 2vw;
+
+    text-decoration: none;
+    justify-self: center;
+
+    background-color: lightgrey;
+}
+
+h4 {
+    text-align: center;
+    line-height: 2vw;
+    margin-top: 7vw;
+
+    background-color: rgba(35, 31, 64, 0.7);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

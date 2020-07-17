@@ -21,5 +21,4 @@ server.get('/gallery/3D_models', (req, res) => res.render("pages/3D_models"));
 server.get('/gallery/sigils', (req, res) => res.render("pages/sigils"));
 server.get('/gallery/misc', (req, res) => res.render("pages/misc"));
 
-
 server.listen(900);

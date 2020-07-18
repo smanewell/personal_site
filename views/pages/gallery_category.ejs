@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon Newell</title>
+    <link rel="stylesheet" type="text/css" href="style/style_general.css">
+    <link rel="stylesheet" type="text/css" href="style/style_gallery.css">
+</head>
+
+<body>
+    <nav class="darkPurple">
+        <h1>Simon Newell</h1>
+        <div id="navButtons">
+            <a href="/about"><button class="navButton">About</button></a>
+            <a href="/projects"><button class="navButton">Projects</button></a>
+            <a href="/work_history"><button class="navButton">Work History</button></a>
+            <a href="/gallery"><button class="navButton">Gallery</button></a>
+        </div>
+    </nav>
+
+    <main>
+        <h2>
+            <%= categoryName %>
+        </h2>
+
+        <section>
+            <% galleryItems.forEach(item => { %>
+                <div>
+                    <a href='item.itemName'>
+                        <img class="galleryThumbnail" src='<%= "images/gallery_images/" + item.fileName %>' >
+                        <h3> <%= item.itemName %> </h3>
+                    </a>
+                </div>
+                <% }); %>
+        </section>
+    </main>
+</body>
+
+</html>

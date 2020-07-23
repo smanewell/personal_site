@@ -1,0 +1,51 @@
+{
+    "3D_models":{
+        "gallery_title":"3D Models",
+        "gallery_content":[
+        {"name": "Stirling",
+        "images":[
+            "Colour Stirling Cannon Side",
+            "Colour Stirling Cannon"
+        ],
+        "text": "Lorem Ipsum"
+        },
+
+        {"name": "Corsair Rifle",
+            "images":["Corsair Pulse Rifle Coloured"],
+            "text": ""
+        },
+
+        {"name": "Ocelot Revolver",
+        "images":["Ocelot Revolver"],
+        "text": ""
+        },
+
+        {"name": "Occam's Laser",
+            "images":[
+                "Occams Laser Colour - Profile",
+                "Occams Laser Colour - Profile 2",
+                "Occams Laser Colour - Downward Angle 1",
+                "Occams Laser Colour - Downward Angle 2",
+                "Occams Laser Colour - Downward Angle 3"
+            ],
+            "text": ""
+        },
+        
+        {"name": "Spheroid",
+            "images":["Spheroid"],
+            "text": ""
+        }
+    ]},
+    "miniatures":{"gallery_title":"Miniatures",
+        "gallery_content":[]
+    },
+    "sketches":{"gallery_title":"Character Sketches",
+        "gallery_content":[]
+    },
+    "sigils":{"gallery_title":"Sigils and Iconography",
+        "gallery_content":[]
+    },
+    "misc":{"gallery_title":"Miscellaneous",
+        "gallery_content":[]
+    }
+}

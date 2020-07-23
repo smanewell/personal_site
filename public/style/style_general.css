@@ -13,7 +13,7 @@ nav {
     display: grid;
     grid-template-columns: 3fr 5fr;
 
-    background-image: url('images/nav_flair_triangle.png');
+    background-image: url('./images/nav_flair_triangle.png');
     background-repeat: no-repeat;
     background-position: right top;
     background-size: 250px 15vh;

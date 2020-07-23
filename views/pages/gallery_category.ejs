@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simon Newell</title>
-    <link rel="stylesheet" type="text/css" href="style/style_general.css">
-    <link rel="stylesheet" type="text/css" href="style/style_gallery.css">
+    <link rel="stylesheet" type="text/css" href="/style/style_general.css">
+    <link rel="stylesheet" type="text/css" href="/style/style_gallery.css">
 </head>
 
 <body>
@@ -21,18 +21,11 @@
 
     <main>
         <h2>
-            <%= categoryName %>
+            
         </h2>
 
         <section>
-            <% galleryItems.forEach(item => { %>
-                <div>
-                    <a href='item.itemName'>
-                        <img class="galleryThumbnail" src='<%= "images/gallery_images/" + item.fileName %>' >
-                        <h3> <%= item.itemName %> </h3>
-                    </a>
-                </div>
-                <% }); %>
+            
         </section>
     </main>
 </body>

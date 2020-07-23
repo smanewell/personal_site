@@ -1,6 +1,8 @@
 const express = require("express");
 const server = express();
 
+var fileSystem = require('fs');
+
 server.use(express.static("public"));
 server.use(express.json());
 server.set("view engine", "ejs");
@@ -15,14 +17,14 @@ server.get('/work_history', (req, res) => res.render("pages/work_history"));
 
 server.get('/gallery', (req, res) => res.render("pages/gallery"));
 
-server.get('/gallery/miniatures', (req, res) => res.render("pages/miniatures"));
+server.get('/gallery/:category', (req, res) => {
+    let category = req.params.category;
+    let jsonString = fileSystem.readFileSync('./public/src/gallery_data.json');
+    const galleryData = JSON.parse(jsonString);
 
-server.get('/gallery/character_sketches', (req, res) => res.render("pages/character_sketches"));
+    console.log(galleryData[category]);
 
-server.get('/gallery/3D_models', (req, res) => res.render("pages/3D_models"));
-
-server.get('/gallery/sigils', (req, res) => res.render("pages/sigils"));
-
-server.get('/gallery/misc', (req, res) => res.render("pages/misc"));
+    res.render("pages/gallery_category", {categoryData: galleryData[category]});
+});
 
 server.listen(900);

@@ -12,6 +12,7 @@
     
     width: 19vw;
     height: 19vw;
+    object-fit: contain;
     padding: 0.5vw;
     margin: 2vw;
 
@@ -19,6 +20,7 @@
     border-width: 0.5vw;
     border-radius: 11vw;
     border-color: rgba(35, 31, 64, 1);
+    background-color: white;
 }
 
 .workHeader {

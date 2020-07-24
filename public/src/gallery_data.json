@@ -4,35 +4,35 @@
         "gallery_content":[
         {"name": "Stirling",
         "images":[
-            "Colour Stirling Cannon Side",
-            "Colour Stirling Cannon"
+            "Colour Stirling Cannon Side.jpg",
+            "Colour Stirling Cannon.jpg"
         ],
         "text": "Lorem Ipsum"
         },
 
         {"name": "Corsair Rifle",
-            "images":["Corsair Pulse Rifle Coloured"],
-            "text": ""
+        "images":["Corsair Pulse Rifle Coloured.jpg"],
+        "text": ""
         },
 
         {"name": "Ocelot Revolver",
-        "images":["Ocelot Revolver"],
+        "images":["Ocelot Revolver.jpg"],
         "text": ""
         },
 
         {"name": "Occam's Laser",
             "images":[
-                "Occams Laser Colour - Profile",
-                "Occams Laser Colour - Profile 2",
-                "Occams Laser Colour - Downward Angle 1",
-                "Occams Laser Colour - Downward Angle 2",
-                "Occams Laser Colour - Downward Angle 3"
+                "Occams Laser Colour - Profile.jpg",
+                "Occams Laser Colour - Profile 2.jpg",
+                "Occams Laser Colour - Downward Angle 1.jpg",
+                "Occams Laser Colour - Downward Angle 2.jpg",
+                "Occams Laser Colour - Downward Angle 3.jpg"
             ],
             "text": ""
         },
         
         {"name": "Spheroid",
-            "images":["Spheroid"],
+            "images":["Spheroid.jpg"],
             "text": ""
         }
     ]},

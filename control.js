@@ -24,7 +24,7 @@ server.get('/gallery/:category', (req, res) => {
 
     console.log(galleryData[category]);
 
-    res.render("pages/gallery_category", {categoryData: galleryData[category]});
+    res.render("pages/gallery_category", {data: galleryData[category], category:category});
 });
 
 server.listen(900);

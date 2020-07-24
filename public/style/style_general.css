@@ -27,6 +27,9 @@ h1 {
     color: white;
     font-size: 3vw;
 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+
     align-self: center;
     margin: 0;
 }
@@ -62,10 +65,13 @@ h1 {
     from {
         width: 12vw;
         height: 8vh;
+        background-color: rgba(127, 118, 177, 0.3)
+        
     }
     to {
         width: 13vw;
         height: 9vh;
+        background-color: rgba(127, 118, 177, 0.5)
     }
 }
 
@@ -134,4 +140,8 @@ h3 {
 
 .centered {
     text-align: center;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }

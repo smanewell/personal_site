@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simon Newell</title>
+    <title>Gallery - <%= data.gallery_title %></title>
     <link rel="stylesheet" type="text/css" href="/style/style_general.css">
-    <link rel="stylesheet" type="text/css" href="/style/style_gallery.css">
+    <link rel="stylesheet" type="text/css" href="/style/style_gallery_category.css">
 </head>
 
 <body>
@@ -20,12 +20,19 @@
     </nav>
 
     <main>
-        <h2>
-            
-        </h2>
+        <h2><%= data.gallery_title %></h2>
 
         <section>
-            
+            <% data.gallery_content.forEach( (item, index) => { %>
+            <a class="pageLink" href='<%= "gallery/page/" + item.path_name %>'>
+                <div class="thumbnailContainer">
+                    <img class="thumbnail" src='<%= "/images/gallery_images/" + category + "/" + item.images[0] %>'>
+                    <div class="nameBar">
+                        <h4><%= item.name %></h4>
+                    </div>
+                </div>
+            </a>
+            <% }); %>
         </section>
     </main>
 </body>

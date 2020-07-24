@@ -24,7 +24,7 @@
 
         <section>
             <% data.gallery_content.forEach( (item, index) => { %>
-            <a class="pageLink" href='<%= "gallery/page/" + item.name.replace(" ", "_") %>'>
+            <a class="pageLink" href='<%= "/gallery/" + category + "/" + item.name.replace(" ", "_") %>'>
                 <div class="thumbnailContainer">
                     <img class="thumbnail" src='<%= "/images/gallery_images/" + category + "/" + item.images[0] %>'>
                     <div class="nameBar">

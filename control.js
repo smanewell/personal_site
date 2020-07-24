@@ -19,12 +19,26 @@ server.get('/gallery', (req, res) => res.render("pages/gallery"));
 
 server.get('/gallery/:category', (req, res) => {
     let category = req.params.category;
+
     let jsonString = fileSystem.readFileSync('./public/src/gallery_data.json');
     const galleryData = JSON.parse(jsonString);
 
     console.log(galleryData[category]);
 
     res.render("pages/gallery_category", {data: galleryData[category], category:category});
+});
+
+server.get('/gallery/:category/:page', (req, res) => {
+    let category = req.params.category;
+    let galleryItem = req.params.page.replace("_", " ");
+
+    let jsonString = fileSystem.readFileSync('./public/src/gallery_data.json');
+    const galleryData = JSON.parse(jsonString);
+
+    console.log(galleryData[category]);
+    console.log(galleryData[galleryItem]);
+
+    res.render("pages/gallery_page", {data: galleryData[category], item: galleryItem});
 });
 
 server.listen(900);

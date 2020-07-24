@@ -17,15 +17,17 @@ section {
     text-decoration: none;
     width: auto;
     height: auto;
+    padding: 0;
+    margin: 0;
 }
 
 .thumbnailContainer {
     position: relative;
     width: auto;
-    margin: 2vw;
+    margin: 4px;
 
     background-color: rgba(127, 118, 177, 0.75);
-    box-shadow: 5px 10px darkgrey;
+    box-shadow: 3px 6px darkgrey;
 }
 
 .thumbnail {

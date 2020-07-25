@@ -2,7 +2,7 @@ main {
     margin: 0 5vw 0;
 
     display: grid;
-    grid-template-columns: 3fr 2fr;
+    grid-template-columns: 4fr 2fr;
     justify-items: center;
 }
 
@@ -17,12 +17,16 @@ h2 {
 #imageChanger {
     display: flex;
     justify-content: center;
+
+    margin-top: 8px;
 }
 
 
 #primaryImgContainer {
     width: 52vw;
-    height: 62vh;
+    height: 72vh;
+
+    display: table-cell;
 
     padding: 1px;
     margin-top: 10px;
@@ -30,18 +34,16 @@ h2 {
     text-align: center;
     vertical-align: middle;
 
-    border: 3px;
-    border-radius: 10px;
-    border-style: groove;
-    border-color: rgba(35, 31, 64, 1);
+    background-color: rgba(127, 118, 177, 0.75);
+    box-shadow: 3px 6px darkgrey;
 }
 
 #primaryImg {
     padding: 5px;
     max-width: 50vw;
-    max-height: 60vh;
+    max-height: 70vh;
 
-    object-fit: contain;
+    object-fit: fit;
 }
 
 .thumbnailImg {
@@ -52,12 +54,24 @@ h2 {
     padding: 2px;
     margin: 5px;
 
-    border: 2px;
-    border-radius: 10px;
-    border-style: groove;
-    border-color: rgba(35, 31, 64, 1);
+    background-color: rgba(127, 118, 177, 0.75);
+    box-shadow: 3px 6px darkgrey;
 }
 
 #textArea {
     justify-self: left;
+}
+
+@keyframes tilt {
+    from {
+        width: 12vw;
+        height: 8vh;
+        background-color: rgba(127, 118, 177, 0.3)
+        
+    }
+    to {
+        width: 13vw;
+        height: 9vh;
+        background-color: rgba(35, 31, 64, 1)
+    }
 }

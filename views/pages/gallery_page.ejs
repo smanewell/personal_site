@@ -26,7 +26,6 @@
                     <div id="primaryImgContainer">
                     <img id="primaryImg" src='<%= "/images/gallery_images/" + category + "/" + item.images[0] %>'>
                     </div>
-                    <hr>
                     <div id="imageChanger">
                     <% item.images.forEach( (galleryImg, imageIndex) => { %>
                         <img
@@ -39,7 +38,6 @@
         </section>
         <section id="textArea">
             <h2><%= galleryItem %></h2>
-            <hr>
             <p><%= item.text %></p>
             <% }}); %>
         </section>

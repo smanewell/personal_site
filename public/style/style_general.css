@@ -7,11 +7,15 @@ body {
 }
 
 nav {
+    position: fixed;
     margin: 0;
-    padding: 0 5vw 0;
-    height: 15vh;
-    display: grid;
-    grid-template-columns: 3fr 5fr;
+    padding: 0;
+
+    width: 100%;
+    height: 12vh;
+
+    display: flex;
+    justify-content: space-between;
 
     background-image: url('/images/nav_flair_triangle.png');
     background-repeat: no-repeat;
@@ -19,8 +23,18 @@ nav {
     background-size: 250px 15vh;
 }
 
+main {
+    padding-top: 14vh;
+}
+
 .darkPurple {
     background-color: rgba(35, 31, 64, 1);
+}
+
+#navHome {
+    margin-left: 30px;
+    text-decoration: none;
+    align-self: center;
 }
 
 h1 {
@@ -38,7 +52,7 @@ h1 {
     justify-content: flex-end;
     align-items: flex-end;
     display: flex;
-    height: 15vh;
+    height: auto;
 }
 
 .navButton {
@@ -83,7 +97,6 @@ h2 {
     color: rgba(35, 31, 64, 1);
     font-size: 4em;
     margin: 0;
-    padding-top: 10vh;
 }
 
 h3 {

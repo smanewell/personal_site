@@ -1,0 +1,63 @@
+main {
+    margin: 0 5vw 0;
+
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    justify-items: center;
+}
+
+h2 {
+    padding-top: 10px;
+}
+
+#imageArea {
+    justify-content: center;
+}
+
+#imageChanger {
+    display: flex;
+    justify-content: center;
+}
+
+
+#primaryImgContainer {
+    width: 52vw;
+    height: 62vh;
+
+    padding: 1px;
+    margin-top: 10px;
+
+    text-align: center;
+    vertical-align: middle;
+
+    border: 3px;
+    border-radius: 10px;
+    border-style: groove;
+    border-color: rgba(35, 31, 64, 1);
+}
+
+#primaryImg {
+    padding: 5px;
+    max-width: 50vw;
+    max-height: 60vh;
+
+    object-fit: contain;
+}
+
+.thumbnailImg {
+    width: 5vw;
+    height: 5vw;
+    object-fit: cover;
+
+    padding: 2px;
+    margin: 5px;
+
+    border: 2px;
+    border-radius: 10px;
+    border-style: groove;
+    border-color: rgba(35, 31, 64, 1);
+}
+
+#textArea {
+    justify-self: left;
+}

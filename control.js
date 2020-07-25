@@ -35,10 +35,7 @@ server.get('/gallery/:category/:page', (req, res) => {
     let jsonString = fileSystem.readFileSync('./public/src/gallery_data.json');
     const galleryData = JSON.parse(jsonString);
 
-    console.log(galleryData[category]);
-    console.log(galleryData[galleryItem]);
-
-    res.render("pages/gallery_page", {data: galleryData[category], item: galleryItem});
+    res.render("pages/gallery_page", {data: galleryData[category], category:category, galleryItem: galleryItem});
 });
 
 server.listen(900);

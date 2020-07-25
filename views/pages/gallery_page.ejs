@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simon Newell</title>
+    <title>Simon Newell - <%= galleryItem %></title>
     <link rel="stylesheet" type="text/css" href="/style/style_general.css">
-    <link rel="stylesheet" type="text/css" href="/style/style_gallery.css">
+    <link rel="stylesheet" type="text/css" href="/style/style_gallery_page.css">
 </head>
 
 <body>
     <nav class="darkPurple">
-        <h1>Simon Newell</h1>
+        <a id="navHome" href="/"><h1>Simon Newell</h1></a>
         <div id="navButtons">
             <a href="/about"><button class="navButton">About</button></a>
             <a href="/projects"><button class="navButton">Projects</button></a>
@@ -20,8 +20,32 @@
     </nav>
 
     <main>
-        
+        <section id="imageArea">
+            <% data.gallery_content.forEach( (item, index) => { %>
+                <% if(item.name == galleryItem) {%>
+                    <div id="primaryImgContainer">
+                    <img id="primaryImg" src='<%= "/images/gallery_images/" + category + "/" + item.images[0] %>'>
+                    </div>
+                    <hr>
+                    <div id="imageChanger">
+                    <% item.images.forEach( (galleryImg, imageIndex) => { %>
+                        <img
+                        class="thumbnailImg"
+                        src='<%= "/images/gallery_images/" + category + "/" + galleryImg %>'
+                        onclick="changePrimaryImg(this.src)"
+                        >
+                    <% }) %>
+                    </div>
+        </section>
+        <section id="textArea">
+            <h2><%= galleryItem %></h2>
+            <hr>
+            <p><%= item.text %></p>
+            <% }}); %>
+        </section>
     </main>
 </body>
+
+<script src="/src/gallery_page.js"></script>
 
 </html>

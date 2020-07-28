@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-image: linear-gradient(to bottom, white, white, rgba(127, 118, 177, 0.5));
+    background-image: linear-gradient(to bottom, white, white, rgba(123, 174, 169, 0.25));
     background-size: 100vw 100vh;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -17,7 +17,6 @@ nav {
     display: flex;
     justify-content: space-between;
 
-    background-image: url('/images/nav_flair_triangle.png');
     background-repeat: no-repeat;
     background-position: right top;
     background-size: 250px 15vh;
@@ -28,7 +27,7 @@ main {
 }
 
 .darkPurple {
-    background-color: rgba(35, 31, 64, 1);
+    background-color: rgba(45, 85, 80, 1);
 }
 
 #navHome {
@@ -56,11 +55,12 @@ h1 {
 }
 
 .navButton {
-    color: white;
+    color: rgba(20, 80, 65, 1);
     font-family: Verdana;
-    font-size: 0.7em;
+    font-size: 0.8em;
+    font-weight: bold;
 
-    background-color: rgba(127, 118, 177, 0.3);
+    background-color: rgba(123, 174, 169, 0.7);
     border: none;
     margin: 0 0.5vw;
 
@@ -79,13 +79,13 @@ h1 {
     from {
         width: 12vw;
         height: 8vh;
-        background-color: rgba(127, 118, 177, 0.3)
+        background-color: rgba(123, 174, 169, 0.7);
         
     }
     to {
         width: 13vw;
         height: 9vh;
-        background-color: royalblue;
+        background-color: rgba(123, 174, 169, 1);
     }
 }
 
@@ -94,13 +94,13 @@ main {
 }
 
 h2 {
-    color: rgba(35, 31, 64, 1);
+    color: rgba(45, 85, 80, 1);
     font-size: 4em;
     margin: 0;
 }
 
 h3 {
-    color: rgba(35, 31, 64, 1);
+    color: rgba(45, 85, 80, 1);
     font-size: 2em;
 }
 
@@ -117,7 +117,7 @@ h3 {
     border-style: solid;
     border-width: 1vw;
     border-radius: 11vw;
-    border-color:  rgba(127, 118, 177, 1.0);
+    border-color:  rgba(123, 174, 169, 1.0);
 }
 
 @media (max-width: 600px) {

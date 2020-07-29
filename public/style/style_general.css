@@ -101,6 +101,7 @@ main {
 }
 
 h2 {
+    display: inline-block;
     color: rgba(45, 85, 80, 1);
     font-size: 4em;
     margin: 0;
@@ -125,6 +126,14 @@ h3 {
     border-width: 1vw;
     border-radius: 11vw;
     border-color:  rgba(123, 174, 169, 1.0);
+}
+
+.smallGraphic {
+    display: inline-block;
+    width: 10vh;
+    padding: 0.5vw;
+
+    vertical-align: middle;
 }
 
 @media (max-width: 600px) {

@@ -46,6 +46,17 @@ h2 {
     object-fit: fit;
 }
 
+@keyframes tilt {
+    from {
+        transform: rotateY(0);
+        opacity: 0.8;
+    }
+    to {
+        transform: rotateY(20deg);
+        opacity: 1.0;
+    }
+}
+
 .thumbnailImg {
     width: 5vw;
     height: 5vw;
@@ -53,25 +64,37 @@ h2 {
 
     padding: 2px;
     margin: 5px;
+    transform: rotateY(0);
 
     background-color: rgba(45, 85, 80, 0.75);
     box-shadow: 3px 6px darkgrey;
+    opacity: 0.8;
+}
+
+.thumbnailImg:hover {
+    animation: tilt 0.2s ease-in 0.0s 1;
+    animation-fill-mode: forwards;
 }
 
 #textArea {
     justify-self: left;
 }
 
-@keyframes tilt {
-    from {
-        width: 12vw;
-        height: 8vh;
-        background-color: rgba(45, 85, 80, 0.3)
-        
+@media (max-width: 800px) {
+    main {
+        grid-template-columns: 1fr;
     }
-    to {
-        width: 13vw;
-        height: 9vh;
-        background-color: rgba(45, 85, 80, 1)
+
+    #primaryImg {
+        padding: 5px;
+        max-width: 80vw;
+        max-height: 80vh;
+    
+        object-fit: fit;
+    }
+
+    #primaryImgContainer {
+        width: auto;
+        height: auto;
     }
 }

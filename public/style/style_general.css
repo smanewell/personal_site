@@ -25,7 +25,9 @@ nav {
 
 
 #mainLogo {
+    content: url("/images/s_hex_logo.png");
     height: 11vh;
+    width: auto;
     padding: 0.5vh;
 }
 
@@ -58,11 +60,40 @@ h1 {
     margin: 0;
 }
 
-#navButtons {
+#navControl {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+}
+
+#navButtonBar {
     justify-content: flex-end;
     align-items: flex-end;
     display: flex;
     height: auto;
+}
+
+#dropdownButton {
+    display: none;
+    content: url("/images/down_arrow.png");
+    width: 8vh;
+    height: 4vh;
+
+    padding: 4vh 2vh;
+    margin: 0;
+
+    border: none;
+    border-radius: 2vw;
+
+    background-color: rgba(45, 85, 80, 0.0);
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 12vh;
+}
+
+#dropdownButton:hover {
+    background-image: linear-gradient(to top, rgba(123, 174, 169, 0.8), rgba(123, 174, 169, 0));
 }
 
 .navButton {
@@ -79,13 +110,6 @@ h1 {
 
     height: 8vh;
     min-width: 12vw;
-}
-
-.navButton:hover {
-    animation-name: enlargeButton;
-    animation-duration: 0.3s;
-    animation-timing-function: ease-out;
-    animation-fill-mode: both;
 }
 
 @keyframes enlargeButton {
@@ -159,6 +183,15 @@ h3 {
     vertical-align: middle;
 }
 
+@media (min-width: 600px) {
+    .navButton:hover {
+        animation-name: enlargeButton;
+        animation-duration: 0.3s;
+        animation-timing-function: ease-out;
+        animation-fill-mode: both;
+    }
+}
+
 @media (max-width: 600px) {
     h1{
         font-size: 5vh;
@@ -187,6 +220,41 @@ h3 {
         border-radius: 9vh;
 
         margin: 2vh;
+    }
+
+    #navButtonBar {
+        display: none;
+    }
+
+    #dropdownButton {
+        display: block;
+        justify-self: flex-end;
+    }
+
+    #dropdownButton:hover + #navButtonBar, #navButtonBar:hover {
+        display: flex;
+        flex-direction: column;
+    }
+ 
+    .navButton {
+        border-radius: 0;
+        width: 30vw;
+    }
+
+    @keyframes highlight {
+        from {
+            background-color: rgba(123, 174, 169, 0.7)
+        }
+        to {
+            background-color: rgba(123, 174, 169, 1.0)
+        }
+    }
+
+    .navButton:hover {
+        animation-name: highlight;
+        animation-duration: 0.3s;
+        animation-timing-function: ease-out;
+        animation-fill-mode: both;
     }
 }
 

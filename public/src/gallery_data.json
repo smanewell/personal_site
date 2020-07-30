@@ -7,17 +7,17 @@
             "Colour Stirling Cannon Side.jpg",
             "Colour Stirling Cannon.jpg"
         ],
-        "text": "Lorem Ipsum"
+        "text": "'Stirling' was orginally created as a companion character in a table-top roleplaying game.  The original concept was mechanical cannon-turret which could walk.  After a brief time in SolidWorks, the design expanded and became more intricate and bird like. The final designs shown here have a triple cannon affixed to a large system of gears, and a pair of retractable wheels on the bird-like legs."
         },
 
         {"name": "Corsair Rifle",
         "images":["Corsair Pulse Rifle Coloured.jpg"],
-        "text": ""
+        "text": "The design for the Corsair Rifle was made while working on a homebrew table-top game in sci-fic/cyber-punk setting.  I wanted the design to look somewhat bulky and almost industrial, particularily with the retractable stock and angular casing."
         },
 
         {"name": "Ocelot Revolver",
         "images":["Ocelot Revolver.jpg"],
-        "text": ""
+        "text": "The Ocelot revolver pistol was designed while writing for a sci-fic/cyber-punk table-top game.  I liked the idea of a retro-futuristic weapon, like a laser revolver.  The name was a joke reference to 'Revolver Ocelot' from the series Metal Gear Solid."
         },
 
         {"name": "Occam's Laser",
@@ -28,12 +28,12 @@
                 "Occams Laser Colour - Downward Angle 2.jpg",
                 "Occams Laser Colour - Downward Angle 3.jpg"
             ],
-            "text": ""
+            "text": "Occam's Laser was designed after the Corsair and Ocelot as a more ambitious project in the same vein.  The design was inspired from both a real-world Bazooka and a sci-fi Rail Gun.  The name is a play on the term 'Occam's Razor.'"
         },
         
         {"name": "Spheroid",
             "images":["Spheroid.jpg"],
-            "text": ""
+            "text": "The Spheroid was my first attempt at designing my own 3D printable model kit.  It was originally designed to be a gift for a family member, but the several aspects of the design made printing difficult.  However, the design itself was fun and appreciated, and affectionately given the nickname 'Round-Boy.'"
         }
     ]},
     "miniatures":{"gallery_title":"Miniatures",

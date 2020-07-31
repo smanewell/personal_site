@@ -63,6 +63,10 @@ section {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+h4 {
+    line-height: 1.6;
+}
+
 .thumbnailContainer:hover > .nameBar{
     opacity: 1.0;
 }

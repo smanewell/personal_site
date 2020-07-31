@@ -24,6 +24,7 @@
     </nav>
 
     <main>
+        
         <section id="imageArea">
             <% data.gallery_content.forEach( (item, index) => { %>
                 <% if(item.name == galleryItem) {%>
@@ -40,6 +41,7 @@
                     <% }) %>
                     </div>
         </section>
+
         <section id="textArea">
             <h2><%= galleryItem %></h2>
             <p><%= item.text %></p>

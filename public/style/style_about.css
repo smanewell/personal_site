@@ -11,7 +11,7 @@ main {
     border-width: 0.5vw;
     border-radius: 16vw;
     padding: 0.5vw;
-    border-color:  rgba(127, 118, 177, 1.0);
+    border-color:  rgba(123, 174, 169, 1.0);
 }
 
 #textArea {
@@ -44,7 +44,7 @@ hr {
         border-width: 1vw;
         border-radius: 32vw;
         padding: 1vw;
-        border-color:  rgba(127, 118, 177, 1.0);
+        border-color:  rgba(123, 174, 169, 1.0);
     }
 
     #textArea {

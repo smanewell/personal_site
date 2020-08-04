@@ -7,17 +7,17 @@
             "Colour Stirling Cannon Side.jpg",
             "Colour Stirling Cannon.jpg"
         ],
-        "text": "Lorem Ipsum"
+        "text": "'Stirling' was orginally created as a companion character in a table-top roleplaying game.  The original concept was mechanical cannon-turret which could walk.  After a brief time in SolidWorks, the design expanded and became more intricate and bird like. The final designs shown here have a triple cannon affixed to a large system of gears, and a pair of retractable wheels on the bird-like legs."
         },
 
         {"name": "Corsair Rifle",
         "images":["Corsair Pulse Rifle Coloured.jpg"],
-        "text": ""
+        "text": "The design for the Corsair Rifle was made while working on a homebrew table-top game in sci-fic/cyber-punk setting.  I wanted the design to look somewhat bulky and almost industrial, particularily with the retractable stock and angular casing."
         },
 
         {"name": "Ocelot Revolver",
         "images":["Ocelot Revolver.jpg"],
-        "text": ""
+        "text": "The Ocelot revolver pistol was designed while writing for a sci-fic/cyber-punk table-top game.  I liked the idea of a retro-futuristic weapon, like a laser revolver.  The name was a joke reference to 'Revolver Ocelot' from the series Metal Gear Solid."
         },
 
         {"name": "Occam's Laser",
@@ -28,24 +28,217 @@
                 "Occams Laser Colour - Downward Angle 2.jpg",
                 "Occams Laser Colour - Downward Angle 3.jpg"
             ],
-            "text": ""
+            "text": "Occam's Laser was designed after the Corsair and Ocelot as a more ambitious project in the same vein.  The design was inspired from both a real-world Bazooka and a sci-fi Rail Gun.  The name is a play on the term 'Occam's Razor.'"
         },
         
         {"name": "Spheroid",
             "images":["Spheroid.jpg"],
-            "text": ""
+            "text": "The Spheroid was my first attempt at designing my own 3D printable model kit.  It was originally designed to be a gift for a family member, but the several aspects of the design made printing difficult.  However, the design itself was fun and appreciated, and affectionately given the nickname 'Round-Boy.'"
         }
     ]},
     "miniatures":{"gallery_title":"Miniatures",
-        "gallery_content":[]
+        "gallery_content":[
+            {"name": "Ork Rok",
+                "images":[
+                    "Tinker-Bodge Ork Rok (Front).JPG",
+                    "Tinker-Bodge Ork Rok (Left).JPG",
+                    "Tinker-Bodge Ork Rok (Back).JPG",
+                    "Tinker-Bodge Ork Rok (Right).JPG",
+                    "Tinker-Bodge Ork Rok (Cat for Scale).JPG"
+                ],
+                "text": "This is an Ork Rok from Warhammer 40k.  A make-shift transport and weapon, it is essentially an asteroid strapped with as many rockets as possible.  This particular model was made with a mixture of styrofoam terrain techniques and assorted gubbinz from old kits and toys."
+                }
+        ]
     },
-    "sketches":{"gallery_title":"Character Sketches",
-        "gallery_content":[]
+    "character_sketches":{"gallery_title":"Character Sketches",
+        "gallery_content":[
+            {"name": "Captain Scrap",
+                "images":[
+                    "Character CaptainScrap Colour.jpg",
+                    "Character CaptainScrap Sketch.png",
+                    "Character CaptainScrap Sketch (Original Scan).png"
+                ],
+                "text": "Captain Scrap is the intellectual property of 'Nerdy Show' the podcast network and 'Lightning Dogs.' One of the many characters and potential villains brainstormed by the funny folks at Nerdy Show on their Lightning Dogs podcast.  When the podcast originally aired I found myself continuously entertained if not laughing uproariously.  Captain Scrap was a brillaint character, and I began sketching while listening.  Much like Orks from Warhammer, the idea of scrappy, bolted together apocalypse characters are very appealing to me, so the Piratical Mutant Turtle turned walking junk pile immediately stood out to me.  I liked the original sketch so much that I scanned and coloured it."
+            },
+
+            {"name": "Dark Cutman",
+                "images":["Character CutManDark Colour.jpg"],
+                "text": "Cutman from the classic Capcom series 'Megaman' re-envisioned as a dark fantasy character.  The original inspiration came while doing some practice sketching helmets.  One helm with large wings reminded me of Cutman, as I had been playing the Megaman games quite recently.  I liked the drawing enough to expand it into a sort of dark fantasy re-envisioning."
+            },
+
+            {"name": "Dark Elecman",
+                "images":["Character ElecManDark Colour.jpg"],
+                "text": "Elecman from the Capcom 'Megaman' series.  Having finished my Dark Cutman character, I was still having fun, and decided to do another character in the same style.  Elecman, was an interesting character whose design for a dark fantasy setting would be both fun and challenging.  I liked the idea of doing a character with an electric/storm motif."
+            },
+
+            {"name": "Monster Avatars",
+                "images":[
+                    "Character Gnoll Colour.png",
+                    "Character Gnoll Sketch.png",
+                    "Character Kobold Digital Sketch.png",
+                    "Character Goblin Digital Sketch.png",
+                    "Character Lizardfolk Digital Sketch.png",
+                    "Character Ork Digital Sketch.png",
+                    "Character Tiefling Digital Sketch.png"
+                ],
+                "text": "These myriad monster sketches were made for a Dungeons and Dragons game I ran where all the players would be plyaing as Monsters.  It was a lot of fun, and I enjoyed the study working with stark shadows and blocked in black areas."
+            },
+
+            {"name": "Viridian Greengrove",
+                "images":[
+                    "Character Viridian Colour.jpg",
+                    "Character Viridian Sketch.jpg"
+                ],
+                "text": "Viridian 'Grover' Greengrove, was yet another Dungeons and Dragons character of mine.  He was designed to be a strange and unkept druid of sorts, highly inspired by Loki from Norse myth as well as Puck from a Midsummer Night's Dream.  The pun-y name was supposed to juxtapose him as a more malevolent or troublsome character."
+            },
+
+            {"name": "War Tooth",
+                "images":[
+                    "EatMeGradient.jpg",
+                    "EatMeGradient2.jpg"
+                ],
+                "text":"War Tooth was a character designed for a friend's post-apocalypse setting.  Taking heavy inspiration from the likes of Borderlands and MadMax, War Tooth was a gun toting bandit of sorts.  Originally he was going to have a bulls-eye painted either on his chest or head.  However, I was experimenting with block colouring and fell in love with a sort of psychodelic gradient.  Ultimately I wrote 'Eat Me' on his chest plate, and named him 'War Tooth' as a bit of a joke."
+            },
+
+            {"name": "The Man With The Metal Arm",
+                "images":["Digital Painting Man With The Metal Arm.jpg"],
+                "text":"The Man With the Metal Arm, aka 'Spriggly Gillete' was yet another Dungeons and Dragons character.  He was designed as a sort of Hard Boiled Investigator/Gunslinger type character.  After a series of rather dark incidents, he wound up with a mechanical arm.  From there I got inspired by the Gunfighter Ballad: Big Iron.  I liked the comparison so much it inspired me to make an image somewhat redolant of a book cover proclaiming him the 'Man With The Metal Arm', as a reference both to the literal arm and the gun he used."
+            },
+
+            {"name": "Deringer Ape",
+                "images":["Digital Painting Ape Minimal.jpg"],
+                "text":"This was a brief practice piece I did to try an make use of minimal and highly contrasting colours."
+            },
+
+            {"name": "Smoking Lion",
+                "images":["Digital Painting Smoking Lion.jpg"],
+                "text":"This was a brief practice piece I did to try an make use of minimal and highly contrasting colours."
+            },
+
+            {"name": "Halloween Jack",
+                "images":[
+                    "Character HalloweenJack Colour.jpg",
+                    "Character HalloweenJack Sketch.png",
+                    "Character Halloween Jack Full Body Sketch.jpg"
+                ],
+                "text":"Halloween Jack is the intellectual property of 'Nerdy Show' the podcast network and 'Lightning Dogs.' A reference to David Bowie, Halloween Jack is a real cool cat, and in Nerdy Show's Lightning Dog's he is mutant rockabilly/punk goon and enforcer for the major villain 'Glampyre'.  I enjoyed the idea of a punk-rock ghoul in the apocalypse, and drew up a number of sketches for him."
+            }
+        ]
     },
     "sigils":{"gallery_title":"Sigils and Iconography",
-        "gallery_content":[]
+        "gallery_content":[
+            {"name":"Personal Website Icons",
+                "images":[
+                    "s_hex_logo.png",
+                    "keyboard_symbol.png",
+                    "screwbriver_symbol.png",
+                    "pencil_symbol.png",
+                    "project_computer_hex.png",
+                    "project_computer_hex.png",
+                    "gallery_pencil_frame.png"
+                ],
+                "text":"This collection of icons and logo were designed by me for my personal website, which I hope your looking at right now! The site was originally prototyped in figma with a soft purple colour pallete.  However, I decided to revise to a darker greenish shade after finding the presentation of the gallery did not pop out as I wanted.  MY favorite of these pieces is the main logo.  I wanted to include an S or SN for my initials, as this is a personal site and logo. After a number of very rough doodles, I came to a hexagonal shape, and from there the cube that became the final design."
+            },
+
+            {"name":"Steam Avatar",
+                "images":["RossAvatar.jpg"],
+                "text":"My longterm Avatar on Steam.  I have always liked skulls and gothic symbols, after sketching out a skull design I really liked I decided to keep going with it.  Altered the original skull from its manic/jovial expression to one that was somber in order to make my own kull-themed comedy and tragedy Skulls."
+            },
+
+            {"name":"Nerdy Show Houses",
+                "images":[
+                    "FNFSigil.png",
+                    "VimakSigil.png",
+                    "LeftySigil.png",
+                    "ChairSigil.png",
+                    "BartySigil.png",
+                    "JenSigil.png",
+                    "JamellaSigil.png",
+                    "JemellaSigilAlt.png",
+                    "SteelixSigil.png",
+                    "GBRsigil.png",
+                    "SigilLD.png"
+                ],
+                "text":"I was once an avid listener of the Nerdy Show podcast network, while at the same time enjoying the HBO series Game of Thrones.  The culmination of these two loves was a series of House Crests based on either the shows on the network, or characters from one of their radio plays.  A lot of fun to make, I really enjoyed coming up with the house words in addition to practicing weathering techniques."
+            },
+
+            {"name":"Nerves",
+                "images":[
+                    "NeuronOrange.png",
+                    "NerveBranch.png",
+                    "NerveDamaged.png",
+                    "NerveBranchG.png"
+                ],
+                "text":"For a powerpoint presentation during my time studying Biomedical Engineering.  Despite their simplicity I liked the overall design a great deal, particularily given that I made all of them in a single afternoon."
+            },
+
+            {"name":"Vitosign",
+                "images":[
+                    "VitosignRed.png",
+                    "VitosignGreen.png"
+                ],
+                "text":"Vitosign was the team name for my Capstone project in Mechanical Engineering.  Teams were all asked to create a name similar to a company name to adopt.  As one of the Biomedical Option groups we developed our name to relfect the medical side of our project.  'Vito' from the latin 'Vitus' for life, and 'Sign' as in a Vital Sign.  The subsequent logo incorperated the 'blip' of a heart beat monitor."
+            },
+
+            {"name":"Snazzy Sharks",
+                "images":["SNAZZYSHARKRED.jpg"],
+                "text":"A quick but fun design I did for a friend.  He, like me, loves Orks from Warhammer 40k.  For a flag/clan image he asked me if I could paint something scrappy and handpainted in appearance for him to use.  He provided the name 'Snazzy Sharks' and so this image was born."
+            },
+
+            {"name":"De La Marche Crest",
+                "images":["DeLaMarche.jpg"],
+                "text":"The proud crest of De la Marche.  After taking part in a game of Dungeons of Dragons, this aristocratic crest as a fun project.  The crest and name belonged to another player, and I enjoyed coverting a text description into a a proper heraldric image."
+            }
+        ]
     },
     "misc":{"gallery_title":"Miscellaneous",
-        "gallery_content":[]
+        "gallery_content":[
+            {"name":"Pink Dune",
+                "images":[
+                    "Digital Painting Pink Dune (Scanline).jpg",
+                    "Digital Painting Pink Dune.jpg"
+                ],
+                "text":"I have a soft spot for 80's synth wave and sci-fi.  This piece was a short excerise in trying to make an image with old monitor scan lines while being inspired with some of the sci-fi elements of the time."
+            },
+
+            {"name":"Pale Horseman",
+                "images":["Digital Painting Pale Horseman.jpg"],
+                "text":"The pale horseman is an alternate name for death, or more specifically one of the 4 riders of the apocalypse.  I once did an art piece using scratch paper, where a layer of black material is overlayed on a piece of white card stock.  One 'draws' by scraping away the back material revealing the image.  While I have long since lost that piece (it was from highschool), this piece reminded me of that technique."
+            },
+
+            {"name":"Misty Copse",
+                "images":["Digital Painting Misty Copse.jpg"],
+                "text":"This quick digital painting was nice for practice with layers and opacity.  I love the haunting and melancholy feeling of mist and fog in woods during fall.  I like to walk in the local trails near my home."
+            },
+
+            {"name":"Through the Trees",
+                "images":["Digital Painting throughthetrees.jpg"],
+                "text":"This quick digital painting was just to try out some different brushes.  Despite the small canvas size, I enjoyed the vibrant colours I managed in the piece."
+            },
+
+            {"name":"Halloween Jack Weapons Concept",
+                "images":[
+                    "Sketch JackBombs Colour.jpg",
+                    "Sketch JackBombs.png",
+                    "Sketch JackHammer.jpg"
+                ],
+                "text":"Halloween Jack is a real cool cat, and property of Nerdy Show and Lightning Dogs.  These sketches were for some concept weaponry for him to wield.  I liked the idea of the weapons being as scrappy and old, thus I made the Stickbomb/grenade design.  As for 'Jack-Hammer', I love puns, and the worse the better."
+            },
+
+            {"name":"Medusa Jellyfish",
+                "images":["Sketch Medusa Jellyfish HiRes.jpg"],
+                "text":"Dark paper and White Pencils, I drew this after borrowing a nice pencil set.  The white pencil made me want to play with water and sheen.  Medusa and Hydra are both references to jellyfish and polyp scientific names."
+            },
+
+            {"name":"Laughing Mask",
+                "images":["Digital Sketch Laughing Mask.jpg"],
+                "text":"Quick piece for some dark, wierd fantasy I was writing."
+            },
+
+            {"name":"Dragon Continent Map",
+                "images":["Fanatasy Map Western Continent - Digital Version.jpg"],
+                "text":"I made this for a Dungeons and Dragons campaign I ran.  One of my favorite aspects of this piece is naming the geography.  I came up this the idea after imagining an island built out of the body of a giant animal.  I took the idea and made it a continent for some classic fantasy fun.  My favorite location name is the 'Hackles' Mountain Range."
+            }
+        ]
     }
 }

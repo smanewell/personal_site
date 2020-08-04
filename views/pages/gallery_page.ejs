@@ -9,17 +9,22 @@
 </head>
 
 <body>
-    <nav class="darkPurple">
-        <a id="navHome" href="/"><h1>Simon Newell</h1></a>
-        <div id="navButtons">
-            <a href="/about"><button class="navButton">About</button></a>
-            <a href="/projects"><button class="navButton">Projects</button></a>
-            <a href="/work_history"><button class="navButton">Work History</button></a>
-            <a href="/gallery"><button class="navButton">Gallery</button></a>
+    <nav class="dark">
+        <a id="navHome" href="/"><img id="mainLogo"></a>
+
+        <div id="navControl">
+            <img id="dropdownButton">
+            <div id="navButtonBar">
+                <a href="/about"><button class="navButton">About</button></a>
+                <a href="/projects"><button class="navButton">Projects</button></a>
+                <a href="/work_history"><button class="navButton">Work History</button></a>
+                <a href="/gallery"><button class="navButton">Gallery</button></a>
+            </div>
         </div>
     </nav>
 
     <main>
+        
         <section id="imageArea">
             <% data.gallery_content.forEach( (item, index) => { %>
                 <% if(item.name == galleryItem) {%>
@@ -36,6 +41,7 @@
                     <% }) %>
                     </div>
         </section>
+
         <section id="textArea">
             <h2><%= galleryItem %></h2>
             <p><%= item.text %></p>

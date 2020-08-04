@@ -1,13 +1,13 @@
-main {
+section {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
 .galleryBtn {
-    width: 16vw;
-    height: 16vw;
+    width: 14vw;
+    height: 14vw;
 
-    margin: 2vw;
+    margin: 1.5vw 1.5vw 0;
 
     text-decoration: none;
     justify-self: center;
@@ -18,9 +18,69 @@ main {
 h4 {
     text-align: center;
     line-height: 2vw;
+    padding-top: 10px;
+    padding-bottom: 10px;
     margin-top: 7vw;
 
-    background-color: rgba(35, 31, 64, 0.7);
+    background-color: rgba(45, 85, 80, 0.7);
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media (max-width: 1000px) {
+    section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .galleryBtn {
+        width: 30vw;
+        height: 30vw;
+    
+        margin: 1.5vw 1.5vw 0;
+    
+        text-decoration: none;
+        justify-self: center;
+    
+        background-color: lightgrey;
+    }
+
+    h4 {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-top: 15vw;
+    
+        background-color: rgba(45, 85, 80, 0.7);
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+}
+
+@media (max-width: 600px) {
+    section {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .galleryBtn {
+        width: 50vw;
+        height: 50vw;
+    
+        margin: 1.5vw 1.5vw 0;
+    
+        text-decoration: none;
+        justify-self: center;
+    
+        background-color: lightgrey;
+    }
+
+    h4 {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-top: 25vw;
+    
+        background-color: rgba(45, 85, 80, 0.7);
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
 }

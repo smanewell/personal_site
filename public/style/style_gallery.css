@@ -7,12 +7,15 @@ section {
     width: 14vw;
     height: 14vw;
 
-    margin: 1.5vw 1.5vw 0;
+    margin: 1.5vw 1.5vw 0.5vw;
 
     text-decoration: none;
     justify-self: center;
 
     background-color: lightgrey;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 h4 {
@@ -27,6 +30,19 @@ h4 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+#portfolioBtn {background-image: url("/images/blank_document.png");}
+
+#miniaturesBtn {background-image: url("/images/gallery_images/miniatures/Tinker-Bodge Ork Rok (Front).jpg");}
+
+#sketchesBtn {background-image: url("/images/gallery_images/character_sketches/Digital Painting Man With The Metal Arm.jpg");}
+
+#modelsBtn {background-image: url("/images/gallery_images/3D_models/Spheroid.jpg");}
+
+#sigilsBtn {background-image: url("/images/gallery_images/sigils/SNAZZYSHARKRED.jpg");}
+
+#miscBtn {background-image: url("/images/gallery_images/misc/Fanatasy Map Western Continent - Digital Version.jpg");}
+
+
 @media (max-width: 1000px) {
     section {
         display: grid;
@@ -36,23 +52,12 @@ h4 {
     .galleryBtn {
         width: 30vw;
         height: 30vw;
-    
-        margin: 1.5vw 1.5vw 0;
-    
-        text-decoration: none;
-        justify-self: center;
-    
-        background-color: lightgrey;
     }
 
     h4 {
         padding-top: 10px;
         padding-bottom: 10px;
         margin-top: 15vw;
-    
-        background-color: rgba(45, 85, 80, 0.7);
-        color: white;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
 }
 
@@ -65,22 +70,11 @@ h4 {
     .galleryBtn {
         width: 50vw;
         height: 50vw;
-    
-        margin: 1.5vw 1.5vw 0;
-    
-        text-decoration: none;
-        justify-self: center;
-    
-        background-color: lightgrey;
     }
 
     h4 {
         padding-top: 10px;
         padding-bottom: 10px;
         margin-top: 25vw;
-    
-        background-color: rgba(45, 85, 80, 0.7);
-        color: white;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
 }
